@@ -24,7 +24,22 @@
 		    <id>NexusRepo</id>
 		    <url>http://34.201.119.102:8081/repository/batch16d-repo-release/</url>
 		</repository>
-  	</distributionManagement>
+	</distributionManagement>
+	<dependencies>
+
+    <dependency>
+        <groupId>jakarta.servlet.jsp.jstl</groupId>
+        <artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
+        <version>3.0.1</version>
+    </dependency>
+
+    <dependency>
+        <groupId>org.glassfish.web</groupId>
+        <artifactId>jakarta.servlet.jsp.jstl</artifactId>
+        <version>3.0.1</version>
+    </dependency>
+
+</dependencies>
     
     <build>
         <plugins>
